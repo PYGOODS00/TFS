@@ -2,7 +2,6 @@ import streamlit as st
 import pyttsx3
 
 # Set up Streamlit app title and text input
-st.title("Text-to-Speech App")
 text = st.text_input("Enter your text:")
 
 # Function to convert text to speech
